@@ -1,13 +1,13 @@
 Nama : Muhammad Alfi Dwi Yulianto
 Nim : A11.2021.13293
 
-#ubah nama folder setelah di ekstrak menjadi : .......
+# ubah nama folder setelah di ekstrak menjadi : .......
 
 
 # Login admin
 ```
 username    : admin
-password    : adminselalubenar
+password    : admin113293
 ```
 
 # Login dokter
