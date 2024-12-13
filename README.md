@@ -1,7 +1,7 @@
 Nama : Muhammad Alfi Dwi Yulianto
 Nim : A11.2021.13293
 
-# ubah nama folder setelah di ekstrak menjadi : .......
+# ubah nama folder (hapus -main) setelah di ekstrak menjadi : Bk-UDINUS-POLIKLINIK
 
 
 # Login admin
@@ -11,5 +11,15 @@ password    : admin113293
 ```
 
 # Login dokter
-password adalah username, jadi password dimasukan nama dokter nya
+NOTE : password adalah username dari dokter
+```
+username    : username
+password    : username
+```
 
+# Login user
+NOTE : Sandi harus selalu diingat
+```
+username    : username
+password    : password
+```
