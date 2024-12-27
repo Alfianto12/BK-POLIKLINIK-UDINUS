@@ -1,4 +1,4 @@
-<?php
+<?php //------INDEX DOKTER--------
     require 'config/koneksi.php';
     $id_poli = $_SESSION['id_poli'];
 
@@ -16,7 +16,7 @@
         $nama_poli = "Tidak dapat mendapatkan nama poli";
     }
 ?>
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>

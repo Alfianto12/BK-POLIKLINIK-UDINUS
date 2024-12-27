@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html> <!------INDEX PASIEN-------->
 <html lang="en">
 
 <head>

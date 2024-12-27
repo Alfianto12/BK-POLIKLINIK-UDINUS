@@ -1,4 +1,4 @@
-<?php
+<?php //------INDEX PASIEN--------
 
 include 'config/koneksi.php';
 

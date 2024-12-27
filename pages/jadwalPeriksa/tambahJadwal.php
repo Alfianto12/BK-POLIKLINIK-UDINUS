@@ -25,16 +25,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // if ($koneksi->query($query) === TRUE) {
         // Eksekusi query
         if (mysqli_query($mysqli, $query)) {
-            // Jika berhasil, redirect kembali ke halaman utama atau sesuaikan dengan kebutuhan Anda
-            // header("Location: ../../index.php");
-            // exit();
             echo '<script>';
             echo 'alert("Jadwal berhasil ditambahkan!");';
             echo 'window.location.href = "../../jadwalPeriksa.php";';
             echo '</script>';
             exit();
         } else {
-            // Jika terjadi kesalahan, tampilkan pesan error
+            // Jika terjadi kesalahan, muncul pesan error
             echo "Error: " . $query . "<br>" . mysqli_error($mysqli);
         }
     }

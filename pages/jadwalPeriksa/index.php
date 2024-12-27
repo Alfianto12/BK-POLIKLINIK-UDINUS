@@ -33,7 +33,6 @@
                                 data-toggle="modal" data-target="#cekJadwal">
                                 Lihat Jadwal
                             </button>
-                            <!-- Modal Tambah Data Obat -->
                             <div class="modal fade" id="addModal" tabindex="-1" role="dialog"
                                 aria-labelledby="addModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
@@ -113,7 +112,7 @@
 
                                                                         $resultss = mysqli_query($mysqli, $ambilDataJadwal);
                                                                         while ($a = mysqli_fetch_assoc($resultss)) {
-                                                                            # code...
+                                                                        
                                                                         ?>
                                                         <tr>
                                                             <td><?php echo $nomor++; ?></td>
@@ -150,7 +149,7 @@
                             </thead>
                             <tbody>
 
-                                <!-- TAMPILKAN DATA OBAT DI SINI -->
+                                <!-- TAMPILKAN DATA -->
                                 <?php
                                 $no = 1;
                             require 'config/koneksi.php';
@@ -187,7 +186,7 @@
                                             <?php echo $data['id_dokter'] == $id_dokter ? '' : 'disabled'?>>Hapus</button> -->
                                         <?php } ?>
                                     </td>
-                                    <!-- Modal Edit Data Obat -->
+                                    <!-- Modal Edit Data -->
                                     <div class="modal fade" id="editModal<?php echo $data['id'] ?>" tabindex="-1"
                                         role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
@@ -200,7 +199,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <!-- Form edit data obat disini -->
+                                                   
                                                     <form action="pages/jadwalPeriksa/updateJadwal.php" method="post">
                                                         <input type="hidden" class="form-control" id="id" name="id"
                                                             value="<?php echo $data['id'] ?>" required>
@@ -248,7 +247,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Modal Hapus Data Obat -->
+                                    <!-- Modal Hapus Data -->
                                     <div class="modal fade" id="hapusModal<?php echo $data['id'] ?>" tabindex="-1"
                                         role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
@@ -261,7 +260,7 @@
                                                     </button>
                                                 </div>
                                                 <div class="modal-body">
-                                                    <!-- Form edit data obat disini -->
+                                                    <!-- Form edit data -->
                                                     <form action="pages/obat/hapusObat.php" method="post">
                                                         <input type="hidden" class="form-control" id="id" name="id"
                                                             value="<?php echo $data['id'] ?>" required>

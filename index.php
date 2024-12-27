@@ -12,7 +12,7 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #fff;
+            background-color: #004080;
             color: #333;
             line-height: 1.6;
             overflow-x: hidden;

@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-7">
                                 <h2 class="lead"><b><?php echo $data['nama'] ?></b></h2>
-                                <h6 class="text-muted text-lg">Poli <?php echo $data['nama_poli'] ?></h6>
+                                <h6 class="text-muted text-lg"><?php echo $data['nama_poli'] ?></h6>
                                 <h6 class="text-muted text-lg"><?php echo $data['hari'] ?></h6>
                                 <ul class="ml-4 mb-0 fa-ul text-muted">
                                     <li class="large"><span class="fa-li"><i class="fas fa-lg fa-clock"></i></span>
@@ -56,7 +56,7 @@
                                     }
                                     ?>
                                 </p>
-                                <h5 class="text-muted text-lg"><strong>Biaya Periksa : <?php echo $data['biaya_periksa'] ?></strong></h5>
+                                <h5 class="text-muted text-lg"><strong>Biaya Periksa : Rp.<?php echo $data['biaya_periksa'] ?></strong></h5>
                             </div>
                             <div class="col-5 flex justify-center items-center flex-col">
                                 <h2 class="lead"><b>No Antrian</b></h2>
@@ -78,6 +78,4 @@
             </div>
         </div>
     </div>
-    <!-- /.card-body -->
-    <!-- /.card-footer -->
 </div>
