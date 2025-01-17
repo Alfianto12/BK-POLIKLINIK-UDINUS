@@ -8,8 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $alamat = $_POST["alamat"];
     $no_hp = $_POST["no_hp"];
     $poli = $_POST["poli"];
-    $password = md5($nama);
+    $password = md5($nama);// Enkripsi nama untuk password (opsional)
 
+     // Query untuk memperbarui data dokter tanpa mengubah id_poli
     $query = "UPDATE dokter SET 
         nama = '$nama', 
         alamat = '$alamat',
